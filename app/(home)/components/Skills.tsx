@@ -22,7 +22,7 @@ export default function Skills() {
                 text:"Python",
                 Icon: SiPython,
             },
-            ,
+            
             {
                 text:"Python",
                 Icon: SiPython,
@@ -46,12 +46,7 @@ export default function Skills() {
             {
                 text:"Python",
                 Icon: SiPython,
-            } ,
-            {
-                text:"Python",
-                Icon: SiPython,
             }
-
 
 
 
@@ -59,7 +54,7 @@ export default function Skills() {
         
     ]
   return (
-    <div className=" max-w-5xl mx-auto px-8">
+    <div>
         <HoverEffect items={skills} />
        
     </div>

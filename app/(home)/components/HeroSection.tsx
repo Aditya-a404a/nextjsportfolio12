@@ -1,5 +1,4 @@
-import { MovingBorderBtn } from '@/components/ui/moving-border';
-import { Link } from 'lucide-react';
+
 import React from 'react'; 
 
 
@@ -9,12 +8,12 @@ export default function HeroSection() {
         
         
              <div className= " space-y-10  text-center lg:text-left">
-                <h1 className= " text-4xl lg:text-7xl font-bold"> Namaste 🙏 , Nice to Meet you <br/>I'm
+                <h1 className= " text-4xl lg:text-7xl font-bold"> Namaste 🙏 , Nice to Meet you <br/>Im
                  
                   <span className=" underline underline-offset-8 decoration-green-500"> { "Aditya Arora"} </span> </h1>
                   <p className="md:w-96 text-lg text-gray-300">
                     {
-                        "I'm a Aspiring Software Developer and a Competitive Programmer. I'm currently pursuing my B.Tech in Computer Science and Engineering from DIT. I'm passionate about learning new technologies and building cool projects. I'm also a huge fan of Competitive Programming and love challenges."
+                        "Im a Aspiring Software Developer and a Competitive Programmer. I'm currently pursuing my B.Tech in Computer Science and Engineering from DIT. Im passionate about learning new technologies and building cool projects. Im also a huge fan of Competitive Programming and love challenges."
                     }
                   </p>
 
