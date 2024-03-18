@@ -10,11 +10,11 @@ export function GoogleGeminiEffectDemo() {
     offset: ["start start", "end start"],
   });
  
-  const pathLengthFirst = useTransform(scrollYProgress, [0, 0.3], [0.2, 2.0]);
-  const pathLengthSecond = useTransform(scrollYProgress, [0, 0.3], [0.15, 2.0]);
-  const pathLengthThird = useTransform(scrollYProgress, [0, 0.3], [0.1, 2.0]);
-  const pathLengthFourth = useTransform(scrollYProgress, [0, 0.3], [0.05, 2.0]);
-  const pathLengthFifth = useTransform(scrollYProgress, [0, 0.3], [0, 2.0]);
+  const pathLengthFirst = useTransform(scrollYProgress, [0, 0.5], [0.2, 2.0]);
+  const pathLengthSecond = useTransform(scrollYProgress, [0, 0.5], [0.15, 2.0]);
+  const pathLengthThird = useTransform(scrollYProgress, [0, 0.5], [0.1, 2.0]);
+  const pathLengthFourth = useTransform(scrollYProgress, [0, 0.5], [0.05, 2.0]);
+  const pathLengthFifth = useTransform(scrollYProgress, [0, 0.5], [0, 2.0]);
  
   return (
     <div
