@@ -31,12 +31,12 @@ export default function Skills() {
             ,
             {
                 text:"HTML",
-                Icon: SiHTML5,
+                Icon: SiHtml5,
             }
             ,
             {
                 text:"CSS",
-                Icon: SiCSS3,
+                Icon: SiCss3,
             }
             
     ]
