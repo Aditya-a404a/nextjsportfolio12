@@ -24,34 +24,21 @@ export default function Skills() {
             },
             
             {
-                text:"Python",
-                Icon: SiPython,
+                text:"JavaScript",
+                Icon: SiJavascript,
             }
 
             ,
             {
-                text:"Python",
-                Icon: SiPython,
+                text:"HTML",
+                Icon: SiHTML5,
             }
             ,
             {
-                text:"Python",
-                Icon: SiPython,
+                text:"CSS",
+                Icon: SiCSS3,
             }
-            ,
-            {
-                text:"Python",
-                Icon: SiPython,
-            }, 
-            {
-                text:"Python",
-                Icon: SiPython,
-            }
-
-
-
-
-        
+            
     ]
   return (
     <div>
