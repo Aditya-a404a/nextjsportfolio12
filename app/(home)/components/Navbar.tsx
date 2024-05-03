@@ -16,16 +16,10 @@ export default function Navbar() {
                 Icon : SiLinkedin,
             },
             {
-                Link:"https://leetcode.com/adityaarora12/",
+                Link:"https://www.instagram.com/adi.a404a/",
                 label:"LeetCode",
                 Icon : SiInstagram,
-            },
-            {
-                Link:"https://leetcode.com/adityaarora12/",
-                label:"LeetCode",
-                Icon : SiX,
             }
-
         ]
 
     return (
